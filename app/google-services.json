@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "376310600052",
+    "firebase_url": "https://fishcheck.firebaseio.com",
+    "project_id": "fishcheck",
+    "storage_bucket": "fishcheck.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:376310600052:android:f499572886abc29c",
+        "android_client_info": {
+          "package_name": "com.nusantarian.fishcheck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "376310600052-o04apav4fnsc4tdr1esm9bunndih0pi0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nusantarian.fishcheck",
+            "certificate_hash": "f799ad563fc3f9b7ccb6255e92e005185fc48aec"
+          }
+        },
+        {
+          "client_id": "376310600052-tk4e283p674u8faennu83s1bt7oea3n2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1PlsO0kMTKDrUqSu2t_8184uKBK60C_M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "376310600052-tk4e283p674u8faennu83s1bt7oea3n2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
