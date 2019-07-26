@@ -22,19 +22,9 @@ public class SplashActivity extends AppCompatActivity {
             @Override
             public void run() {
                 startActivity(new Intent(SplashActivity.this, LoginActivity.class));
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 finish();
             }
         }, 1000);
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
-        FirebaseAuth mAuth = FirebaseAuth.getInstance();
-        FirebaseUser mUser = mAuth.getCurrentUser();
-        if (mUser != null){
-            startActivity(new Intent(SplashActivity.this, MainActivity.class));
-            finish();
-        }
     }
 }

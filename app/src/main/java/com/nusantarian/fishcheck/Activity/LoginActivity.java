@@ -14,6 +14,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.nusantarian.fishcheck.R;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
@@ -73,6 +74,16 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             case R.id.tv_register:
                 startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
                 break;
+        }
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        FirebaseUser mUser = mAuth.getCurrentUser();
+        if (mUser != null){
+            startActivity(new Intent(LoginActivity.this, MainActivity.class));
+            finish();
         }
     }
 }
