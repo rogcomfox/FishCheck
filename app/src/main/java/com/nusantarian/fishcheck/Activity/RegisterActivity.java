@@ -93,6 +93,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                             mDatabase.child(uid).child("Username").setValue(username);
                             Toast.makeText(RegisterActivity.this, "Pendaftaran Akun Sukses!", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
+                            finish();
                         }else {
                             Toast.makeText(RegisterActivity.this, "Pendaftaran Akun Gagal", Toast.LENGTH_SHORT).show();
                         }
