@@ -53,8 +53,8 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 if (dataSnapshot.exists()){
-                    name = Objects.requireNonNull(dataSnapshot.getValue()).toString();
-                    username = Objects.requireNonNull(dataSnapshot.getValue().toString());
+                    name = Objects.requireNonNull(dataSnapshot.child("Nama").getValue()).toString();
+                    username = Objects.requireNonNull(dataSnapshot.child("Username").getValue()).toString();
 
                     tv_name.setText(name);
                     tv_username.setText(username);
