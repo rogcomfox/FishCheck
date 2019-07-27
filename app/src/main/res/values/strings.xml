@@ -48,4 +48,6 @@
     <string name="pilih_gambar">Pilih Gambar</string>
     <string name="hapus_gambar">Hapus Gambar</string>
     <string name="update_password">Update Password</string>
+    <string name="password_baru">Password Baru</string>
+    <string name="silahkan_isi_form_berikut">Silahkan Isi Form Berikut</string>
 </resources>
