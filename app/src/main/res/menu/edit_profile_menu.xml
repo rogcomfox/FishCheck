@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_take"
+        android:title="@string/ambil_gambar"/>
+    <item
+        android:id="@+id/nav_pilih"
+        android:title="@string/pilih_gambar"/>
+    <item
+        android:id="@+id/nav_delete"
+        android:title="@string/hapus_gambar"/>
+</menu>

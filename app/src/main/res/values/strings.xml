@@ -42,4 +42,10 @@
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
     <string name="riwayat">Riwayat</string>
+    <string name="pengaturan_profil">Pengaturan Profil</string>
+    <string name="simpan">Simpan</string>
+    <string name="ambil_gambar">Ambil Gambar</string>
+    <string name="pilih_gambar">Pilih Gambar</string>
+    <string name="hapus_gambar">Hapus Gambar</string>
+    <string name="update_password">Update Password</string>
 </resources>
